@@ -1,0 +1,300 @@
+body {
+    background-image: url('../gambar/background.png');
+}
+
+.title {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 5%;
+    font-family: kalam;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px grey;
+    color: white;
+    font-size: 50px;
+}
+
+.cardbox {
+    margin-left: 104px;
+    height: 360px;
+    width: 250px;
+    background-color: white;
+    border: 1px solid rgb(155, 155, 155);
+    box-shadow: 6px 6px 6px grey;
+}
+
+.foodimage {
+    height: 185px;
+    width: 185px;
+    margin-left: 32.5px;
+    margin-top: 10px;
+    transition: .3s;
+}
+
+.foodimage:hover {
+    transform: scale(1.13) rotate(5deg);
+}
+
+.judulmakanan {
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(68, 68, 68);
+    font-family: roboto;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.deskripsimakanan {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: roboto;
+    font-size: 14px;
+    color: rgb(164, 164, 164);
+
+}
+
+.katalog {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.kategori {
+    margin-top: 50px;
+    margin-left: 104px;
+    font-family: roboto;
+    font-weight: 600;
+    border-top: none;
+    margin-bottom: 50px;
+}
+
+.kategori button {
+    margin-right: 15px;
+}
+
+.header {
+    background-image: url('../gambar/backgroundd.jpg');
+    height: 300px;
+    background-size: 1520px;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    border-top: 3px solid black;
+    background-color: rgb(48, 48, 48);
+    align-items: center;
+}
+
+.boxlogin {
+    border: 0.5px solid rgb(86, 86, 86);
+    height: 475px;
+    width: 450px; 
+    background-color: wheat;
+    box-shadow: 6px 6px 6px rgb(43, 46, 75);
+    margin-left: 545px;
+    margin-top: 142.5px;
+}   
+
+.boxsignup {
+    border: 0.5px solid rgb(86, 86, 86);
+    height: 550px; 
+    width: 450px; 
+    background-color: wheat;    
+    box-shadow: 6px 6px 6px rgb(43, 46, 75);
+    margin-left: 545px;
+    margin-top: 105px;
+}
+
+.tulisanlogin {
+    margin-top: 20px;
+    font-family: roboto;
+    font-weight: 900;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.harga {
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: roboto;
+    font-size: 14px;
+    color: rgb(164, 164, 164);
+}
+
+.Ratting {
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(68, 68, 68);
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: roboto;
+}
+
+.judul_deskripsi {
+    margin-top: 65px;
+    letter-spacing: 2px;
+    color: rgb(68, 68, 68);
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: roboto;
+}
+
+.deskripsi {
+    margin-top: 20px;
+    text-align: justify;
+    padding-right: 50px;
+    color: rgb(68, 68, 68);
+    height: 125px;
+    letter-spacing: 1px;
+    font-family: roboto;
+    font-size: 14px;
+}
+
+.displayimage {
+    height: 270px;
+    width: 270px;
+    margin-top: 10px;
+    transition: .3s;
+    margin-left: 35px;
+}
+
+.displayimage:hover {
+    transform: scale(1.13) rotate(5deg);
+}
+
+.judulmakanandisplay {
+    margin-top: 65px;
+    font-size: 20px;
+    color: rgb(68, 68, 68);
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: roboto;
+}
+
+.hargadisplay {
+    margin-top: 20px;
+    font-size: 17px;
+    color: rgb(68, 68, 68);
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.backgroundgelap {
+    background-color: black;
+}
+
+.namareview{
+    font-family: kalam; 
+    font-weight: 700; 
+    font-size: 60px; 
+    margin-left: 50px;
+    margin-top: 30px; 
+    text-shadow: 2px 2px 2px grey;
+}
+
+.bintangreview {
+    font-size: 20px;
+    margin-left: 50px;
+    font-family: roboto;
+}
+
+.bintang {
+    margin-left: 10px;
+    color: yellow;
+}
+
+.boxhome {
+    margin-top: 100px;
+    background-color: white; 
+    height: 400px; 
+    width: 400px; 
+    box-shadow: 7px 7px 7px grey;
+    padding: 25px;
+    border: 1px solid grey;
+}
+
+.judulbox {
+    font-family: roboto;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+
+.map {
+    width: 350px;
+    transition: 0.4s;
+}
+
+.map:hover {
+    transform: scale(1.08) rotate(0deg);
+}
+
+.judulboxbox {
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: kalam;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px grey;
+    color: black;
+    font-size: 50px;   
+}
+
+.namareviewer {
+    font-family: roboto; 
+    margin-top: 22px; 
+    font-size: 18px; 
+    margin-left: 20px;
+}
+
+.angkaratting {
+    font-family: roboto; 
+    margin-top: 17px; 
+    font-size: 25px; 
+    margin-left: 10px;
+}
+
+.reviewcust {
+    font-family: roboto; 
+    margin-top: 15px; 
+    font-size: 16px; 
+    margin-left: 20px;
+}
+
+.deskripsireview {
+    height: 135px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    ;
+}
+
+.reviewpecel {
+    text-align: center;
+    margin-top: 20px;
+    font-family: kalam;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px grey;
+    color: black;
+    font-size: 50px;
+}
+
+.namareviewerisi {
+    font-family: roboto; 
+    font-size: 25px; 
+    margin-left: 20px;
+}
+
+.carddisplay {
+    height: 450px;
+    width: 900px;
+    background-color: white;
+    border: 1px solid gray;
+    position: fixed;
+    box-shadow: 6px 6px 6px grey;
+}
