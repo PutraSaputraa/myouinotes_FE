@@ -1,0 +1,11 @@
+runtime: python39
+service: ganteng
+entrypoint: serve login.html
+
+handlers:
+  - url: /
+    static_files: login.html
+    upload: login.html
+  - url: /(.*)
+  static_files: \1
+  upload: (.*)
